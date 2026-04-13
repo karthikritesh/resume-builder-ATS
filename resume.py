@@ -42,6 +42,7 @@ story.append(Spacer(1, 12))
 story.append(Paragraph("Professional Experience", styles['SubHeader']))
 
 for job in data["experience"]:
+    story.append(Spacer(1, 6))
     story.append(Paragraph(f"<b>{job['title']}</b>", styles['Body']))
     story.append(ListFlowable([Paragraph(p, styles['Body']) for p in job["points"]], bulletType='bullet'))
 
