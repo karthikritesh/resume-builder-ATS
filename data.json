@@ -1,0 +1,84 @@
+{
+  "name": "Karthik N",
+  "contact": "Senior DevOps Engineer | Bangalore, India<br/>Phone: +91 9738311725 | Email: karthikritesh111@gmail.com<br/>LinkedIn: https://www.linkedin.com/in/karthik-n-033aab140<br/>Portfolio: https://neotericsaint.ddns.net",
+  "summary": "Senior DevOps Engineer with 6+ years of experience working on AWS and Azure. Expert in Kubernetes, CI/CD, Terraform, and platform engineering. Strong focus on automation, scalability, and DevSecOps practices.",
+  "skills": [
+    "Cloud: AWS (EKS), Azure (AKS, App Gateway)",
+    "Kubernetes, Helm, Docker, Karpenter",
+    "Terraform, Terragrunt, Ansible",
+    "GitLab CI, Jenkins, GitHub Actions",
+    "Grafana, Kibana, Datadog",
+    "SBOM, Image Attestation, Security",
+    "Python, Bash, PowerShell",
+    "Kafka, Redis, Valkey"
+  ],
+  "experience": [
+    {
+      "title": "Senior DevOps Engineer - OpenText (Sep 2025 - Present)",
+      "points": [
+        "Implemented an MLOps proof of concept that analyzes historical deployment data and predicts Helm chart build quality using the sklearn linear_model library.",
+        "Worked on establishing OpenText Aviator AI platform that integrates Gemini LLM to analyze customer data and answer contextual queries.",
+        "Designed architecture integrating Cloudserver services with Kafka for processing and analysis pipelines.",
+        "Led migration from NGINX Ingress Controller to Azure Application Gateway Ingress Controller with mTLS enabled.",
+        "Configured rate limiting policies with burst thresholds for non-tenant traffic and bot protection.",
+        "Implemented Karpenter-based autoscaling in AWS EKS clusters used by GitLab CI runners to dynamically provision compute capacity and reduce infrastructure cost.",
+        "Designed and maintained production-grade Helm charts for deploying platform services.",
+        "Led migration of Jenkins pipelines to GitLab CI including reusable pipeline templates and multi-stage pipelines.",
+        "Modified Redis Helm deployment to adopt Bitnami Valkey and built a custom image with updated binaries."
+      ]
+    },
+    {
+      "title": "Software Engineer DevOps - Becton Dickinson (Jul 2023 - Sep 2025)",
+      "points": [
+         "Built Azure Functions to implement backend endpoints for platform services.",
+         "Configured application routing using Azure Application Gateway with listeners and backend pools integrated with Kubernetes ingress controllers.",
+         "Provisioned Azure Blob storage to maintain Terraform remote state files.",
+         "Designed and implemented disaster recovery architecture for platform services.",
+         "Integrated Datadog monitoring for Azure Kubernetes clusters to enhance observability.",
+         "Created automation pipelines allowing developers to update ConfigMaps and scale node pools or VM scale sets without direct cluster access using Azure Container Instances in the same VNet.",
+         "Automated infrastructure provisioning, configuration management, and application deployment using Ansible across multiple environments.",
+         "Developed and maintained Ansible playbooks, roles, and inventory structures to ensure consistent system configuration.",
+         "Designed architecture for a policy controller that allows only verified and attested container images to be admitted into the Azure Kubernetes cluster.",
+         "Conducted proof of concept work on decoupling business logic from stored procedures to improve Azure SQL Server performance.",
+         "Designed reusable Helm library charts that can be shared across multiple dependency charts.",
+         "Automated Azure SaaS infrastructure provisioning using Terraform and Terragrunt.",
+         "Built artifact container images that include bundle changes as part of CI pipeline execution.",
+         "Developed Terraform configurations for public SSL certificate generation and automated renewal using scheduled pipelines.",
+         "Implemented pipelines to recreate environments and infrastructure when required.",
+         "Worked on building and testing .NET and React applications and assisted with migration of MSBuild projects to modern .NET framework builds.",
+         "Designed artifact storage workflows using ORAS with GitHub Container Registry.",
+         "Implemented pipelines to generate SBOM and artifact attestation for Docker images.",
+         "Integrated Cypress testing framework and configured GitHub Actions pipelines to run tests on local hosts using parameterized workflows.",
+         "Built workflows to test and package artifacts."
+      ]
+    },
+    {
+      "title": "DevOps Engineer - Rakuten Symphony (Mar 2022 - Jul 2023)",
+      "points": [
+        "Developed Python scripts for log retention and automated report generation stored on NFS paths configured with Zadara cloud storage.",
+        "Generated Kubernetes pod health check reports using shell scripts for monthly operational reporting.",
+        "Maintained microservice-based software modules deployed across Kubernetes environments.",
+        "Provisioned Kubernetes clusters for microservices and implemented scaling strategies based on system load.",
+        "Established development, staging, QA, and production environments for application deployment.",
+        "Created service monitoring dashboards using Grafana and Kibana based on log severity and message fields.",
+        "Built CI pipelines that package application changes from GitHub repositories and generate Docker images.",
+        "Automated code quality checks, security scans, and CI/CD workflows using Jenkins pipelines.",
+        "Implemented promotion pipelines to push container images to JFrog Artifactory.",
+        "Developed Kubernetes YAML manifests for Pods, Deployments, ReplicaSets, Secrets, and Services.",
+        "Automated creation of operational dashboards and visualizations in Kibana and Grafana.",
+        "Deployed container images to production Robin clusters using Jenkins deployment pipelines."
+      ]
+    },
+    {
+      "title": "Software Engineer - Mindtree (Dec 2019 - Feb 2022)",
+      "points": [
+        "Automated application deployment across environments using Jenkins pipelines and Ansible automation.",
+        "Executed PowerShell and UNIX shell scripts on application and web servers.",
+        "Provisioned Docker containers for developers and testers to replicate production environments for development and testing.",
+        "Monitored multiple server environments using Nagios monitoring.",
+        "Managed Windows servers on Azure and automated daily operational tasks using Azure Automation and Runbooks.",
+        "Implemented automated service restarts on Windows servers based on workload schedules."
+      ]
+    }
+  ]
+}
