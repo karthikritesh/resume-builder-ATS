@@ -16,6 +16,7 @@
     {
       "title": "Senior DevOps Engineer - OpenText (Sep 2025 - Present)",
       "points": [
+        "Designing the Migration of redis standalone to High Availability with customer sentinel docker build",
         "Implemented an MLOps proof of concept that analyzes historical deployment data and predicts Helm chart build quality using the sklearn linear_model library.",
         "Worked on establishing OpenText Aviator AI platform that integrates Gemini LLM to analyze customer data and answer contextual queries.",
         "Designed architecture integrating Cloudserver services with Kafka for processing and analysis pipelines.",
