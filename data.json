@@ -1,85 +1,93 @@
-{
-  "name": "Karthik N",
-  "contact": "Senior DevOps Engineer | Bangalore, India<br/>Phone: +91 9738311725 | Email: karthikritesh111@gmail.com<br/>LinkedIn: https://www.linkedin.com/in/karthik-n-033aab140<br/>Portfolio: https://neotericsaint.ddns.net",
-  "summary": "Senior DevOps Engineer with 6+ years of experience working on AWS and Azure. Expert in Kubernetes, CI/CD, Terraform, and platform engineering. Strong focus on automation, scalability, and DevSecOps practices.",
+ {
+  "name": "Aravinda N",
+  "contact": "Technical QA Lead | Bangalore, India<br/>Phone: +91 9964628402 | Email: aravindanagraj@gmail.com<br/>LinkedIn: https://linkedin.com/in/aravind-nagaraj-47123360",
+  "summary": "Technical QA Lead with 9+ years of experience in Software Quality Assurance specializing in Telecom BSS Billing applications, API Testing, Release Management, Quality Engineering, and microservices testing. Experienced in leading QA teams, enterprise release management, production support, and modern testing practices across Kubernetes-based environments.",
   "skills": [
-    "Cloud: AWS (EKS), Azure (AKS, App Gateway)",
-    "Kubernetes, Helm, Docker, Karpenter",
-    "Terraform, Terragrunt, Ansible",
-    "GitLab CI, Jenkins, GitHub Actions",
-    "Grafana, Kibana, Datadog",
-    "SBOM, Image Attestation, Security",
-    "Python, Bash, PowerShell",
-    "Kafka, Redis, Valkey"
+    "Manual Testing",
+    "Functional Testing",
+    "API Testing",
+    "Integration Testing",
+    "Regression Testing",
+    "SIT, UAT, End-to-End Testing",
+    "REST APIs, JSON Validation",
+    "Postman, Insomnia",
+    "Kubernetes, Kafka",
+    "Couchbase",
+    "Jira, Confluence",
+    "Release Management",
+    "Root Cause Analysis (RCA)",
+    "CAPA",
+    "Production Support",
+    "Agile Methodology",
+    "Playwright (JavaScript, TypeScript - Learning)",
+    "Claude AI"
   ],
   "experience": [
     {
-      "title": "Senior DevOps Engineer - OpenText (Sep 2025 - Present)",
+      "title": "Technical QA Lead - Rakuten Symphony India Pvt. Ltd. (Apr 2022 - Present)",
       "points": [
-        "Designing the Migration of redis standalone to High Availability with customer sentinel docker build",
-        "Implemented an MLOps proof of concept that analyzes historical deployment data and predicts Helm chart build quality using the sklearn linear_model library.",
-        "Worked on establishing OpenText Aviator AI platform that integrates Gemini LLM to analyze customer data and answer contextual queries.",
-        "Designed architecture integrating Cloudserver services with Kafka for processing and analysis pipelines.",
-        "Led migration from NGINX Ingress Controller to Azure Application Gateway Ingress Controller with mTLS enabled.",
-        "Configured rate limiting policies with burst thresholds for non-tenant traffic and bot protection.",
-        "Implemented Karpenter-based autoscaling in AWS EKS clusters used by GitLab CI runners to dynamically provision compute capacity and reduce infrastructure cost.",
-        "Designed and maintained production-grade Helm charts for deploying platform services.",
-        "Led migration of Jenkins pipelines to GitLab CI including reusable pipeline templates and multi-stage pipelines.",
-        "Modified Redis Helm deployment to adopt Bitnami Valkey and built a custom image with updated binaries."
+        "Led a team of 12 QA engineers supporting enterprise telecom billing applications.",
+        "Managed QA planning, regression strategy, release readiness, and QA sign-off for production releases every 5–6 weeks.",
+        "Performed API validation across 7 microservices using Postman and Kubernetes.",
+        "Executed Functional, API, Integration, Regression, SIT, UAT, and End-to-End testing.",
+        "Validated API logs using Kubernetes and Kafka.",
+        "Collaborated with Business Analysts to analyze requirements and design comprehensive test scenarios.",
+        "Reviewed test cases created by junior QA engineers and conducted peer reviews.",
+        "Tracked defects, coordinated with Japan stakeholders, and managed defect lifecycle.",
+        "Presented sprint quality status and release readiness to stakeholders and senior management.",
+        "Performed Root Cause Analysis (RCA) and CAPA for production issues.",
+        "Provided production deployment support and post-production validation.",
+        "Conducted mentoring sessions and knowledge transfer for QA engineers.",
+        "Worked closely with Product Owners, Developers, Business Analysts, and Japan stakeholders.",
+        "Tracked QA metrics, defect leakage, execution progress, and release quality.",
+        "Leveraged Claude AI for document comparison, test artifact review, and requirement analysis."
       ]
     },
     {
-      "title": "Software Engineer DevOps - Becton Dickinson (Jul 2023 - Sep 2025)",
+      "title": "Senior QA-1 - Rakuten Symphony India Pvt. Ltd. (Feb 2021 - Apr 2022)",
       "points": [
-         "Built Azure Functions to implement backend endpoints for platform services.",
-         "Configured application routing using Azure Application Gateway with listeners and backend pools integrated with Kubernetes ingress controllers.",
-         "Provisioned Azure Blob storage to maintain Terraform remote state files.",
-         "Designed and implemented disaster recovery architecture for platform services.",
-         "Integrated Datadog monitoring for Azure Kubernetes clusters to enhance observability.",
-         "Created automation pipelines allowing developers to update ConfigMaps and scale node pools or VM scale sets without direct cluster access using Azure Container Instances in the same VNet.",
-         "Automated infrastructure provisioning, configuration management, and application deployment using Ansible across multiple environments.",
-         "Developed and maintained Ansible playbooks, roles, and inventory structures to ensure consistent system configuration.",
-         "Designed architecture for a policy controller that allows only verified and attested container images to be admitted into the Azure Kubernetes cluster.",
-         "Conducted proof of concept work on decoupling business logic from stored procedures to improve Azure SQL Server performance.",
-         "Designed reusable Helm library charts that can be shared across multiple dependency charts.",
-         "Automated Azure SaaS infrastructure provisioning using Terraform and Terragrunt.",
-         "Built artifact container images that include bundle changes as part of CI pipeline execution.",
-         "Developed Terraform configurations for public SSL certificate generation and automated renewal using scheduled pipelines.",
-         "Implemented pipelines to recreate environments and infrastructure when required.",
-         "Worked on building and testing .NET and React applications and assisted with migration of MSBuild projects to modern .NET framework builds.",
-         "Designed artifact storage workflows using ORAS with GitHub Container Registry.",
-         "Implemented pipelines to generate SBOM and artifact attestation for Docker images.",
-         "Integrated Cypress testing framework and configured GitHub Actions pipelines to run tests on local hosts using parameterized workflows.",
-         "Built workflows to test and package artifacts."
+        "Performed API testing for telecom B2C ISP and B2B MNO services.",
+        "Validated REST APIs using Postman across multiple microservices.",
+        "Executed positive, negative, integration, regression, and end-to-end test scenarios.",
+        "Created test evidence and maintained documentation in Confluence.",
+        "Analyzed user stories and low-level design documents.",
+        "Managed defect tracking and retesting using Jira.",
+        "Collaborated with cross-functional teams during Agile development cycles.",
+        "Presented sprint quality updates to stakeholders.",
+        "Improved QA processes and release quality across multiple projects."
       ]
     },
     {
-      "title": "DevOps Engineer - Rakuten Symphony (Mar 2022 - Jul 2023)",
+      "title": "QA Engineer - Rakuten India Enterprise Pvt. Ltd. (Aug 2021 - Jan 2022)",
       "points": [
-        "Developed Python scripts for log retention and automated report generation stored on NFS paths configured with Zadara cloud storage.",
-        "Generated Kubernetes pod health check reports using shell scripts for monthly operational reporting.",
-        "Maintained microservice-based software modules deployed across Kubernetes environments.",
-        "Provisioned Kubernetes clusters for microservices and implemented scaling strategies based on system load.",
-        "Established development, staging, QA, and production environments for application deployment.",
-        "Created service monitoring dashboards using Grafana and Kibana based on log severity and message fields.",
-        "Built CI pipelines that package application changes from GitHub repositories and generate Docker images.",
-        "Automated code quality checks, security scans, and CI/CD workflows using Jenkins pipelines.",
-        "Implemented promotion pipelines to push container images to JFrog Artifactory.",
-        "Developed Kubernetes YAML manifests for Pods, Deployments, ReplicaSets, Secrets, and Services.",
-        "Automated creation of operational dashboards and visualizations in Kibana and Grafana.",
-        "Deployed container images to production Robin clusters using Jenkins deployment pipelines."
+        "Collected requirements and designed comprehensive test cases.",
+        "Automated test scenarios using Cucumber framework with ATSSA.",
+        "Analyzed test execution results and reported defects using Jira.",
+        "Participated in Agile ceremonies including daily stand-ups and sprint planning.",
+        "Collaborated with client stakeholders for issue resolution."
       ]
     },
     {
-      "title": "Software Engineer - Mindtree (Dec 2019 - Feb 2022)",
+      "title": "Manual Test Engineer - DXC Technology (Sep 2016 - May 2020)",
       "points": [
-        "Automated application deployment across environments using Jenkins pipelines and Ansible automation.",
-        "Executed PowerShell and UNIX shell scripts on application and web servers.",
-        "Provisioned Docker containers for developers and testers to replicate production environments for development and testing.",
-        "Monitored multiple server environments using Nagios monitoring.",
-        "Managed Windows servers on Azure and automated daily operational tasks using Azure Automation and Runbooks.",
-        "Implemented automated service restarts on Windows servers based on workload schedules."
+        "Performed Functional, Smoke, Regression, and UAT testing for AAA Connect Suite.",
+        "Managed defect tracking and reporting using Jira.",
+        "Collaborated with developers and QA teams for defect resolution.",
+        "Tested mobile applications supporting AAA road assistance services.",
+        "Participated in Sprint Planning and retrospective meetings.",
+        "Validated membership management workflows including registration, plan modification, and user management."
       ]
     }
+  ],
+  "certifications": [
+    "ISTQB Certified Tester - Foundation Level (CTFL)"
+  ],
+  "education": [],
+  "achievements": [
+    "Led a team of 12 QA engineers for enterprise telecom billing applications.",
+    "Delivered production releases every 5–6 weeks with QA sign-off.",
+    "Collaborated directly with Japan stakeholders for SIT, UAT, and production releases.",
+    "Validated APIs across 7 microservices using Kubernetes and Postman.",
+    "Reduced manual effort during release validation by leveraging AI-assisted document comparison."
   ]
-}
+ }
